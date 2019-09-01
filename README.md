@@ -25,7 +25,7 @@ code .
 
 ## Open Folder in Container
 
-- Run Remote-Containers: Open Folder in Container
+- Remote-Containers: Open Folder in Container
 
 ## Install node modules
 
