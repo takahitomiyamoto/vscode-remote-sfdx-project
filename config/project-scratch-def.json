@@ -1,0 +1,12 @@
+{
+  "orgName": "My Company",
+  "edition": "Developer",
+  "language": "en_US",
+  "hasSampleData": true,
+  "features": [],
+  "settings": {
+    "orgPreferenceSettings": {
+      "s1DesktopEnabled": true
+    }
+  }
+}
