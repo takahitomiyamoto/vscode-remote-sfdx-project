@@ -18,7 +18,8 @@ see [here](https://forcedotcom.github.io/salesforcedx-vscode/articles/user-guide
 
 ```sh
 git clone https://github.com/takahitomiyamoto/vscode-remote-sfdx-project.git
-cd vscode-remote-sfdx-project
+mv vscode-remote-sfdx-project xxxxx
+cd xxxxx
 rm -rf .git
 code .
 ```
@@ -32,6 +33,7 @@ code .
 ```sh
 npm install --save-dev --save-exact \
 @salesforce/eslint-config-lwc \
+@salesforce/eslint-plugin-aura \
 eslint \
 husky \
 lint-staged \
