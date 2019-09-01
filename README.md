@@ -1,4 +1,4 @@
-# Salesforce DX project template for Remote Development on VS Code
+# Salesforce DX Project Template for Remote Development on VS Code
 
 ## Install Tools
 
