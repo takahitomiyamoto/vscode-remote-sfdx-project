@@ -43,5 +43,5 @@ prettier-plugin-apex
 
 ## Authorize Orgs
 
-- SFDX:Authorize a Dev Hub
+- SFDX: Authorize a Dev Hub
 - SFDX: Create a Default Scratch Org
