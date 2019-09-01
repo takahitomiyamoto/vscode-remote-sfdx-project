@@ -47,4 +47,5 @@ prettier-plugin-apex
 - SFDX: Create a Default Scratch Org
 
 # Acknowledgement
+
 This repository is cloned from [forcedotcom/vscode-remote-try-sfdx](https://github.com/forcedotcom/vscode-remote-try-sfdx).
