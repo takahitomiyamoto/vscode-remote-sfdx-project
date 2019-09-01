@@ -19,7 +19,7 @@ see [here](https://forcedotcom.github.io/salesforcedx-vscode/articles/user-guide
 ```sh
 git clone https://github.com/takahitomiyamoto/vscode-remote-sfdx-project.git
 cd vscode-remote-sfdx-project
-rm -r .git
+rm -rf .git
 code .
 ```
 
