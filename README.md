@@ -28,7 +28,13 @@ code .
 
 - Remote-Containers: Open Folder in Container
 
-## Update Node Modules
+## Install Node Modules
+
+```sh
+npm install
+```
+
+## Update Latest Node Modules
 
 ```sh
 npm install --save-dev --save-exact \
@@ -43,8 +49,8 @@ prettier-plugin-apex
 
 ## Authorize Orgs
 
-- SFDX: Authorize a Dev Hub
-- SFDX: Create a Default Scratch Org
+1. SFDX: Authorize a Dev Hub
+1. SFDX: Create a Default Scratch Org
 
 # Acknowledgement
 
