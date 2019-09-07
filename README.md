@@ -40,6 +40,9 @@ lint-staged \
 prettier \
 prettier-plugin-apex
 ```
+```sh
+npm update --global sfdx-cli
+```
 
 ## Authorize Orgs
 
