@@ -36,9 +36,7 @@
     "apexPMD.commandBufferSize": 64,
     "apexPMD.priorityErrorThreshold": 1,
     "apexPMD.priorityWarnThreshold": 3,
-    "apexPMD.rulesets": [
-      "default"
-    ],
+    "apexPMD.rulesets": ["default"],
     "apexPMD.runOnFileOpen": true,
     "apexPMD.runOnFileSave": true,
     "apexPMD.showErrors": true,

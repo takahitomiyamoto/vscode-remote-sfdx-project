@@ -28,13 +28,7 @@ code .
 
 - Remote-Containers: Open Folder in Container
 
-## Install Node Modules
-
-```sh
-npm install
-```
-
-## Update Latest Node Modules
+## Install Latest Node Modules
 
 ```sh
 npm install --save-dev --save-exact \
