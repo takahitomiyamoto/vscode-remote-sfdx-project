@@ -1,7 +1,3 @@
 {
-  "plugins": ["@salesforce/eslint-plugin-aura"],
-  "extends": [
-    "@salesforce/eslint-config-lwc/recommended",
-    "plugin:@salesforce/eslint-plugin-aura/recommended"
-  ]
+  "extends": ["@salesforce/eslint-config-lwc/recommended"]
 }
