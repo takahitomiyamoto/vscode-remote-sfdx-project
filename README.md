@@ -33,7 +33,6 @@ code .
 ```sh
 npm install --save-dev --save-exact \
 @salesforce/eslint-config-lwc \
-@salesforce/eslint-plugin-aura \
 eslint \
 husky \
 lint-staged \
