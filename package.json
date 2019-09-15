@@ -2,14 +2,16 @@
   "name": "vscode-remote-sfdx-project",
   "version": "1.0.0",
   "scripts": {
+    "force:apex:test:run": "sfdx force:apex:test:run --apiversion 46.0 -c -l RunLocalTests -y --verbose -r human || true",
+    "force:org:list": "sfdx force:org:list",
+    "force:source:retrieve:default": "sfdx force:source:retrieve -a 46.0 -m 'ApexClass,ApexComponent,ApexPage,ApexTrigger,AuraDefinitionBundle,LightningComponentBundle'",
     "lint": "npm run lint:lwc && npm run lint:aura",
     "lint:aura": "eslint **/aura/** || true",
     "lint:lwc": "eslint **/lwc/** || true",
     "prettier": "prettier --loglevel log --write '**/*.{component,css,cls,cmp,html,js,json,md,page,trigger}'",
     "rebuild": "rm -rf node_modules && rm package-lock.json && npm cache clean --force && rm -rf ~/.npm && npm install",
     "test": "npm run lint && npm run test:unit",
-    "test:unit": "npm run test:unit:apex",
-    "test:unit:apex": "sfdx force:apex:test:run --apiversion 46.0 -c -l RunLocalTests -y --verbose -r human || true"
+    "test:unit": "npm run force:apex:test:run"
   },
   "devDependencies": {
     "@salesforce/eslint-config-lwc": "0.3.0",
