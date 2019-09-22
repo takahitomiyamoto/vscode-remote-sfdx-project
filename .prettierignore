@@ -3,4 +3,5 @@
 #
 
 **/staticresources/**
+**/jsconfig.json
 .sfdx
