@@ -32,6 +32,7 @@ code .
 
 ```sh
 npm install --save-dev --save-exact \
+@prettier/plugin-xml \
 @salesforce/eslint-config-lwc \
 eslint \
 husky \
@@ -40,8 +41,11 @@ prettier \
 prettier-plugin-apex
 ```
 
+## Install SFDX
+
 ```sh
-npm update --global sfdx-cli
+npm install --global sfdx-cli
+echo y | sfdx plugins:install sfpowerkit
 ```
 
 ## Authorize Orgs
