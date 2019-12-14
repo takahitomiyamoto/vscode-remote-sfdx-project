@@ -3,6 +3,5 @@
   "edition": "Developer",
   "language": "en_US",
   "hasSampleData": true,
-  "features": [],
-  "settings": {}
+  "features": []
 }
