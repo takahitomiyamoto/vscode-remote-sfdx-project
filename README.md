@@ -31,20 +31,15 @@ code .
 ## Install Latest Node Modules
 
 ```sh
-npm install --save-dev --save-exact \
-@prettier/plugin-xml \
-@salesforce/eslint-config-lwc \
-eslint \
-husky \
-lint-staged \
-prettier \
-prettier-plugin-apex
+chmod +x ./initNodeModules.sh
+./initNodeModules.sh
 ```
 
 ## Install SFDX
 
 ```sh
-npm install --global sfdx-cli
+npm install -g yarn
+yarn add global sfdx-cli
 echo y | sfdx plugins:install sfpowerkit
 ```
 
