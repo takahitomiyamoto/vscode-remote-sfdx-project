@@ -36,7 +36,7 @@
     "prettier": "prettier --loglevel log --write \"**/*.{component,css,cls,cmp,html,js,json,md,page,trigger,xml}\"",
     "prettier:force-app": "prettier --loglevel log --write \"force-app/**/*.{component,css,cls,cmp,html,js,json,md,page,trigger,xml}\"",
     "rebuild": "rm -rf node_modules && rm package-lock.json && npm cache clean --force && rm -rf ~/.npm && npm install",
-    "test": "npm run lint && npm run test:unit",
+    "test": "npm run lint",
     "test:unit": "npm run test:unit:apex",
     "test:unit:apex": "sfdx force:apex:test:run --loglevel DEBUG --apiversion 47.0 --codecoverage --testlevel RunLocalTests --synchronous --verbose --resultformat human || true"
   },
