@@ -10,7 +10,7 @@ see [here](https://forcedotcom.github.io/salesforcedx-vscode/articles/user-guide
 ## Install VS Code Extensions
 
 - Remote Development Extension Pack
-- Codey Midnight
+- Codey Midnight (or Codey's in bed by 10)
 - Bracket Pair Colorizer
 - Output Colorizer
 
@@ -31,16 +31,14 @@ code .
 ## Install Latest Node Modules
 
 ```sh
-chmod +x ./initNodeModules.sh
-./initNodeModules.sh
+yarn gulp:init
 ```
 
 ## Install SFDX
 
 ```sh
-npm install -g yarn
 yarn add global sfdx-cli
-echo y | sfdx plugins:install sfpowerkit
+echo y | sfdx plugins:install @salesforce/sfdx-scanner
 ```
 
 ## Authorize Orgs

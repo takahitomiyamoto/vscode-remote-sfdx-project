@@ -5,7 +5,7 @@
     "no-eq-null": "warn",
     "no-warning-comments": [
       "warn",
-      {"terms": ["todo", "fixme"], "location": "start"}
+      { "terms": ["todo", "fixme"], "location": "start" }
     ],
     "no-var": "warn",
     "prefer-const": "warn"

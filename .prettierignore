@@ -3,5 +3,8 @@
 #
 
 **/staticresources/**
-**/jsconfig.json
+.localdevserver
 .sfdx
+.vscode
+
+coverage/
